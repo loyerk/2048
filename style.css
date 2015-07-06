@@ -1,0 +1,108 @@
+.tableGame{
+	display: block;
+	margin: auto;
+	width: 420px;
+	height: 428px;
+	clear: both;
+	background-color: #C9A46D;
+}
+.line{
+	display: block;
+	width: 434px;
+	height: 108px;
+}
+.line div{
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	float: left;
+}
+h1{
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#divScore{
+	display: block;
+	margin: auto;
+	width: 200px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+#addScore{
+	position: relative;
+	display: block;
+	margin-bottom: 2px;
+	z-index: 10;
+	opacity: 0;
+	font-size: 2em;
+}
+#score{
+	display: block;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-bottom: 2px;
+	z-index: 20;
+}
+input{
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-size: 2em;
+    background: white; 
+    border: 1px solid #ffa853; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px 3px #ffa853; 
+    color: white; 
+    outline: none;
+    font-family: 'Shadows Into Light', cursive;
+}
+body{
+	background-image: url(src/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+span{
+	color: white;
+}
+#title{
+	display: block;
+	margin: auto;
+	width: 500px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#rules{
+	padding: 20px;
+	display: block;
+	margin: auto;
+	width: 400px;
+	text-align: center;
+	background-color: white;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.5em;
+	opacity: 0.8;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+#gameOver{
+	position: absolute;
+	z-index: 10;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('src/gameOver.jpg');
+	display: block;
+	margin-left: 705px;
+	margin-top: 255px;
+	width: 500px;
+	height: 600px;
+	opacity: 0;
+	display: none;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	color: white;
+	font-size: 1.5em;
+}
